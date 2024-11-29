@@ -1,0 +1,734 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins " , sans-serif;
+    outline: none;
+    list-style-type: none;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+body{
+   background-color: #2C3E50;
+
+   
+}
+
+/* header section styleing starts here */
+
+.header-section{
+background-color:#34495E ;
+padding: 10px;
+width: 100%;
+position:fixed;
+
+}
+
+.logo-text{
+    font-family: "raleway",sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.nav-section{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.nav-links{
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+}
+.hire-me{
+    padding: 4px 8px 4px 8px;
+    background-color: #E74C3C;
+    border: none;
+    border-radius: 4px;
+    display: none;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+.user-icon{
+    font-weight: 100;
+}
+.menu-icon{
+    color: #ECF0F1;
+   
+}
+.menu-bar{
+    content: url(/assets/menu.png);
+    width: 24px;
+    color: #ECF0F1;
+
+   
+}
+/* header section style ends here */
+
+
+
+/* section-one style starts from here... */
+
+.section-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.details{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     text-align:justify;
+     text-align-last: center; 
+}
+
+.profile-pic .profile-image{
+    border-radius: 50%;
+    margin-top: 80px;
+    
+}
+.details p{
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.details p span{
+color: #DAF7A6;
+font-size: 20px;
+font-weight: 500;
+}
+.details .description{
+    font-size: 14px;
+    min-width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height:-1;
+    color: #ECF0F1;
+}
+.buttons-section-one{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons-section-one .connect-me, .resume{
+    padding: 6px 8px 6px 8px;
+    color: #34495E;
+    border: none;
+    margin-top: 20px;
+    border-radius: 2px;
+    gap: 5px;
+}
+.buttons-section-one .connect-me{
+    background-color: #E74C3C;
+    color: #ffffff;
+    margin-right: 5px;
+    display: inline-flex;
+    align-items: center;
+    color: white;
+}
+.buttons-section-one .resume{
+    background-color: #34495E;
+    color: #ffffff;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+}
+
+/* section-one style ends here */
+
+/* cards-section style starts here... */
+ .cards-section{
+  
+    display: grid;
+   grid-template-rows: 1fr;
+   align-items: center;
+   justify-content: center;
+    /* overflow-x: scroll; */
+    margin-top: 16px; 
+}
+
+/* ::-webkit-scrollbar{
+    display: none;
+
+} */
+.card-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.card-details{
+    display: flex;
+    flex-direction: column;
+    margin-top: -5px;
+    align-items: left;
+    max-width: 250px;
+    margin-bottom:  5px;
+    background-color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-left: 12px;
+    line-height: 20px;
+}
+
+.resturent-image{
+    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.card-one .project-title{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    color: #E74C3C;
+    
+}
+
+.card-one p{
+    font-size: 13px;
+    color: #34495E;
+}
+
+.link-project{
+    display: flex;
+    gap: 20px;
+    margin-top: 5px;
+}
+.card-details a{
+    color: #34495E;
+    font-size: 14px;
+}
+
+
+.skills-heading{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.skills img{
+    width:50px;
+    margin-top: 16px;
+}
+
+.acchivements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading-acchive{
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.client-heading{
+    margin-top: -20px;
+
+}
+
+
+.card{
+    border: 1px solid #34495E;
+   text-align: center;
+   width: 250px;
+   height: 100px;
+  display: inline-flex;
+  flex-direction: column;
+  line-height: 25px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin-top: 20px;
+ 
+}
+
+.acchivements p{
+    color: #DAF7A6;
+    font-size: 14px;
+}
+
+.client{
+    color: #fff;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    
+}
+
+input{
+    height: 35px;
+    width: 100%;
+    background-color: #34495E;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+input::placeholder{
+    color: white;
+
+}
+
+input:focus{
+    padding-left: 12px;
+}
+   
+textarea{
+    background-color: #34495E;
+    border: none;
+    border-radius: 4px;
+    width: 250px;
+    padding: 12px;
+}
+
+textarea::placeholder{
+    color: white;
+  
+}
+textarea:focus{
+    padding-left: 12px;
+}
+
+.get-in-touch{
+    background-color: #E74C3C;
+    margin-top: 10px;
+    width: 250px;
+    border: none;
+    padding: 8px 16px 8px 16px ;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 4px;
+   cursor: pointer;
+}
+.contact-us{
+    font-size: 20px;
+
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: start;
+    gap: 20px ;
+    background-color: #34495E;
+    margin-top: 30px;
+    padding: 30px;
+}
+li{
+    font-size: 14px;
+    margin-bottom: 5px;
+    cursor: pointer;
+
+}
+li:hover{
+    text-decoration: underline;
+}
+
+.heading-footer{
+    color: #DAF7A6;
+    margin-bottom: 5px;
+}
+
+.copy-right{
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/* primary color :  2C3E50
+   SECONDARY COLOR : 34495E
+   ACCENT COLOR :ECFOF1
+   HIGHLIGHT COLOR : E74C3C
+   TEXT COLOR : FFFFFF
+   EXTRA COLOR :DAF7A6 */
+
+/* responsive website for mobile phones */
+@media screen and (min-width:375px)  {
+    .logo-text{
+        font-size: 24px;
+    }
+    .menu-bar{
+        width: 26px;
+    }
+    
+}
+
+@media screen  and (min-width:425px){
+    .footer-container{
+        grid-template-columns:  1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+}
+
+/* responsive website for tablets  */
+
+@media screen and (min-width:768px){
+    .nav-links{
+        display: flex;
+        gap: 20px;
+    }
+    .menu-bar{
+        display: none;
+    }
+    .hire-me{
+        display:inline-flex
+    }
+   
+     a{
+        font-size: 14px;
+        font-weight: 100;
+    }
+    .link:hover{
+        background-color:  #2C3E50;
+        padding: 8px 16px 8px 16px;
+        transition: all 0.3s ease;
+        border-radius: 4px;
+    }
+
+    .details p span{
+        font-size: 22px;
+    }
+    .details .description{
+        max-width: 400px;
+        
+    }
+
+    .profile-image{
+        width: 250px;
+    }
+
+    .skills img{
+        width: 100px;
+    }
+.skills-heading{
+    font-size: 22px; 
+}
+
+.cards-section{
+    grid-template-rows: 1fr ;
+    grid-template-columns: 1fr 1fr ;
+    justify-content: space-evenly;
+    padding: 80px;
+  gap: 20px;
+}
+.cards{
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card{
+    width: 200px;
+}
+
+input , .meassage , .get-in-pouch{
+    width: 400px;
+}
+.footer-container{
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: flex-start;
+}
+
+}
+
+
+/* resplonsive for laptop 1024*/
+
+@media screen and (min-width:1024px) {
+
+    a{
+        font-size: 16px;
+    }
+    .hire-me{
+        padding: 8px 16px 8px 16px;
+        font-size: 16px;
+    }
+    .user-icon{
+        font-size: 26px;
+    }
+
+    .details p span{
+        font-size: 24px;
+    }
+    .details .description{
+        max-width: 450px;
+        font-size: 16px;
+        
+    }
+
+    .profile-image{
+        width: 300px;
+    }
+    .buttons-section-one .connect-me ,.resume{
+        padding: 8px 16px 8px 16px;
+        font-size: 16px;
+    }
+
+    .cards-section{
+      grid-template-rows: 1fr ;
+      grid-template-columns: 1fr 1fr 1fr ;
+      padding: 20px;
+       transition: all 0.3s ease;
+      
+    }
+    
+
+    .card-one p{
+        font-size: 14px;
+    }
+    .card-details{
+        min-width: 300px;
+    }
+
+    .resturent-image{
+       min-width: 300px;
+    }
+    .card-one .project-title{
+        font-size: 18px;
+    }
+    .link-project{
+        justify-content: space-between;
+        padding-right: 12px;
+    }
+
+    .skills img{
+        width: 150px;
+    }
+.skills-heading{
+    font-size: 24px; 
+}
+
+.card{
+   
+    width: 300px;
+    height: 150px;
+    
+}
+
+.acchivements p{
+    font-size: 16px;
+}
+input , .meassage , .get-in-pouch{
+    width: 500px;
+}
+.heading-footer{
+    font-size: 18px;
+}
+.copy-right{
+    font-size: 16px;
+    padding: 20px;
+}
+
+
+
+
+}
+
+
+/* responsive for laptop 1440 */
+@media screen and (min-width:1440px) {
+
+    a{
+        font-size: 18px;
+    }
+    .hire-me{
+        padding: 8px 16px 8px 16px;
+        font-size: 18px;
+    }
+    .user-icon{
+        font-size: 26px;
+    }
+    .logo-text{
+        font-size: 26px;
+    }
+    .details p span{
+        font-size: 26px;
+    }
+    .details .description{
+        max-width: 500px;
+        font-size: 18px;
+        
+    }
+
+    .profile-image{
+        width: 350px;
+    }
+    .buttons-section-one .connect-me ,.resume{
+        padding: 8px 16px 8px 16px;
+        font-size: 18px;
+    }
+
+    .cards-section{
+        grid-template-rows: 1fr ;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+       
+    }
+    .card-details{
+        min-width: 350px;
+        min-height: 107px;
+    }
+
+    .resturent-image{
+       min-width: 350px;
+    }
+
+    .skills img{
+        width: 200px;
+    }
+.skills-heading{
+    font-size: 26px; 
+}
+
+.card{
+   
+    width: 350px;
+    height: 150px;
+    
+}
+.acchivements p{
+    font-size: 18px;
+}
+input , .meassage , .get-in-pouch{
+    width: 600px;
+}
+
+.heading-footer{
+    font-size: 20px;
+}
+.copy-right{
+    font-size: 18px;
+    padding: 20px;
+}
+
+
+  
+}
+
+/* responsive for laptop 2560 */
+@media screen and (min-width:2560px) {
+
+    a{
+        font-size: 20px;
+    }
+    .hire-me{
+        padding: 8px 16px 8px 16px;
+        font-size: 20px;
+    }
+    .user-icon{
+        font-size: 28px;
+    }
+    .logo-text{
+        font-size: 28px;
+    }
+    .details p span{
+        font-size: 26px;
+    }
+    .details .description{
+        max-width: 550px;
+        font-size: 18px;
+        
+    }
+
+    .profile-image{
+        width: 350px;
+    }
+    .buttons-section-one .connect-me ,.resume{
+        padding: 8px 16px 8px 16px;
+        font-size: 18px;
+    }
+
+    .cards-section{
+        justify-content: space-evenly;
+    }
+    .card-details{
+        min-width: 500px;
+        
+    }
+
+    .resturent-image{
+       min-width: 500px;
+    }
+
+    .skills img{
+        width: 300px;
+    }
+.skills-heading{
+    font-size: 28px; 
+}
+
+.card{
+   
+    width: 400px;
+    height: 200px;
+    
+}
+.acchivements p{
+    font-size: 20px;
+}
+input , .meassage , .get-in-pouch{
+    width: 700px;
+}
+.heading-footer{
+    font-size: 20px;
+}
+.copy-right{
+    font-size: 18px;
+    padding: 20px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+/* primary color :  2C3E50
+   SECONDARY COLOR : 34495E
+   ACCENT COLOR :ECFOF1
+   HIGHLIGHT COLOR : E74C3C
+   TEXT COLOR : FFFFFF
+   EXTRA COLOR :DAF7A6 */
